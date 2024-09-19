@@ -1,4 +1,3 @@
-// components/dock/Dock.js
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaFolder, FaChrome, FaFile } from 'react-icons/fa';
