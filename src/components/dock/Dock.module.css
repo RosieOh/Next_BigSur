@@ -1,0 +1,23 @@
+.dock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(10px); /* 블러 효과 */
+}
+
+.iconContainer {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
