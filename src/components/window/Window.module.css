@@ -1,0 +1,39 @@
+.window {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 600px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgba(230, 230, 230, 0.8);
+}
+
+.buttons {
+    display: flex;
+}
+
+.close {
+    width: 12px;
+    height: 12px;
+    background: #ff5f56;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    overflow-y: auto;
+    height: calc(100% - 40px);
+}
